@@ -1,0 +1,20 @@
+const forms = [
+        'Ensino Fundamental',
+        'Ensino Superior' ,
+        'Ensino Superior Incompleto',
+        'Pós-graduação Completo' ,
+        'Pós-graduação Incompleto' ,
+        'Pós-graduação Mestrado Incompleto' ,
+        'Pós-graduação Mestrado Completo' ,
+        'Pós-graduação Doutorado Incompleto' ,
+        'Pós-graduação Doutorado Completo' 
+       
+    ];
+
+    <Autocomplete
+                                            disablePortal
+                                            id="combo-box-demo"
+                                            options={forms}
+                                            sx={{ width: 300 }}
+                                            renderInput={(params) => <TextField {...params} label="Nivel Academico" />}
+                                            onChange={(e) => setGrau(e.target.value)} />

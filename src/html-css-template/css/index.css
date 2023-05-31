@@ -1,0 +1,392 @@
+.header-home {
+    background: linear-gradient(1deg, #a2d6d3 1%, #50bfb8 98%);
+    padding: 0 !important;
+    border-radius: 0 0 85% 85% / 30%;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.container-texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*
+------------- start banner -------------
+*/
+.colum-text {
+    max-width: 21.8rem;
+    animation: none;
+    transition: 0s;
+    color: #FFF;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto;
+    text-shadow: 0.1rem 0.1rem 0.1rem #333;
+    font-size: 2rem;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.875rem;
+    font-size: 1.1rem;
+}
+
+.colum-text a,
+.btn-white {
+    background: #ffffff;
+    color: #50bfb8;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+}
+
+.container-imagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.area-img {
+    width: 60%;
+    padding: 1.3rem !important;
+    margin: 1.3rem !important;
+}
+
+.imagem-banner {
+    border-radius: 0.25rem;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.banner .colum-text .my-3 {
+    text-shadow: none;
+}
+
+.banner img {
+    min-height: 18.75rem;
+}
+
+
+/*
+------------- end banner -------------
+*/
+
+/* 
+------------- start info section -------------
+ */
+
+.info-section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 68.75rem;
+    height: 90vh;
+    align-items: center;
+}
+
+
+.info-section h2,
+.info-section a {
+    color: #50bfb8;
+}
+
+.info-section .img-before-text {
+    display: none;
+}
+
+.imagem-info {
+    vertical-align: top;
+    min-height: 18.75rem;
+    height: 30.625rem;
+}
+
+
+
+.info-container-texto {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    top: 100rem;
+    height: 30rem;
+
+}
+
+.item-texo {
+    background: white;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-titulo {
+    width: 80%;
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    letter-spacing: 0.125rem;
+    font-size: 2.25rem;
+}
+
+
+.texto-paragrafo {
+    width: 80%;
+    font-size: 1.25rem;
+    letter-spacing: 0.0625rem;
+    text-align: start;
+    justify-content: space-between;
+}
+
+
+/*
+------------- end info section -------------
+*/
+
+/*
+------------- start avaliações -------------
+*/
+.avaliacao-section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 68.75rem;
+    height: 30rem;
+    align-items: center;
+}
+
+
+.titulo-cards-avaliacao {
+    height: 60px;
+    width: 62rem;
+    border: 0;
+    text-align: center;
+
+}
+
+.titulo-cards-avaliacao h2 {
+    color: #50bfb8 !important;
+    font-weight: bold;
+    font-size: 2.25rem;
+    border: none;
+}
+
+.texto-avaliacao {
+    padding: 2%;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.dados-card {
+    height: 15rem;
+    width: 20.875rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-avaliacao {
+    border-radius: 50%;
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.dados-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.dados-imagem h3 {
+    color: #50bfb8 !important;
+    margin-left: 0.625rem;
+}
+
+.dados-imagem span {
+    color: #50bfb8 !important;
+    margin-left: 0.625rem;
+}
+
+.baixo-card {
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    font-size: 0.9375rem;
+}
+
+
+/*
+------------- end avaliações -------------
+*/
+
+/*
+------------- start status section -------------
+*/
+.data-section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 68.75rem;
+    height: 38rem;
+    align-items: center;
+}
+
+.card-dados {
+    width: 18.75rem;
+    height: 12.5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.data-section h2 {
+    font-weight: 700 !important;
+    margin-top: 0.625rem;
+    color: #50bfb8 !important;
+    font-size: calc(1.5rem + 0.9vw);
+}
+
+.data-section h3 {
+    font-weight: 700 !important;
+    margin-top: 0.625rem;
+    color: #50bfb8;
+    font-size: calc(1rem + 0.9vw);
+}
+
+
+.data-section p {
+    margin-top: 0.625rem;
+    font-size: calc(1rem + 0.125vw);
+}
+
+
+.data-avatar {
+
+
+    margin-bottom: 0.75rem
+}
+
+.data-section .icon-area {
+    background-color: #50bfb8;
+}
+
+.status-area {
+    justify-content: center;
+}
+
+/*
+------------- end status section -------------
+*/
+
+
+
+/*
+------------- start footer -------------
+*/
+footer {
+    background: linear-gradient(1deg, #3db1a9 1%, #88cfcc 98%);
+    height: 40vh;
+}
+
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.Copyright {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.text-left-logotype {
+    align-items: center;
+
+}
+
+.text-footer {
+    color: white;
+    width: 96%;
+    padding: 3%;
+}
+
+.footer-title {
+    color: #ffffff;
+    margin-bottom: 5%;
+    font-weight: 0;
+}
+
+.corpo-footer {
+    height: 25vh;
+}
+
+
+.ajustes {
+    justify-content: space-between;
+    height: 6vh;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 15%;
+}
+
+.img-footer {
+    width: 9.6875rem;
+    height: 2.1875rem;
+}
+
+.linha-footer {
+    height: 0.6875rem;
+}
+
+
+.links-diversos {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+/*
+------------- end footer -------------
+*/

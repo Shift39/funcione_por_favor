@@ -1,0 +1,407 @@
+/* inicio do container*/
+
+.container{
+  
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* fim do container*/
+
+
+
+
+
+
+
+/* inicio do sidebar*/
+.lado_esquerdo{
+    width: 15%;
+    background-color: #49CCC6;
+
+}
+.imagem{
+    width: 98%;
+    height: 10vh;
+    
+    background-image: url("/src/components/images/Capturar2.PNG");
+    background-position: center;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+
+}
+.item_lado_esquerdo_a{
+    width: 98%;
+    height: 10vh;
+    
+    margin-top: 10%;
+    padding: 1vh;
+    display: flex;
+}
+.item_lado_esquerdo_a_imagem{
+    width: 30%;
+    height: 5vh;
+    margin-top: 5%;
+    background-image: url("/src/components/images/item_1.PNG");
+    background-position: center;
+    background-size: 5vh;
+    background-repeat: no-repeat;
+    
+}
+.item_lado_esquerdo_a_texto{
+    width: 60%;
+    height: 8vh;
+    
+    color: white;
+    font-size: 2.8vh;
+    display: flex;
+   
+    align-items: center;
+}
+/* fim do sidebar*/
+
+
+
+/* inicio da dashboard em si*/
+
+
+
+.lado_direito{
+
+    width: 85%;
+
+    
+
+}
+
+
+
+/* a dashboard é dividida em 4 partes A, B, C e D*/
+
+
+
+/* inicio de A*/
+.item_a{
+    width: 100%;
+    height:8vh;
+    border-bottom: 1px solid black;
+ 
+    
+}
+/* fim de A*/
+
+
+
+
+/* inicio de B*/
+.item_b{
+    margin-top: 4%;
+    width: 100%;
+    height:30vh;
+    
+    
+    
+}
+.item_b_grafico{
+    width: 25%;
+    margin-left: 6%;
+    height:20vh;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.329); 
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.item_grafico{
+    width: 25%;
+    height:20vh;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.329); 
+    display: flex;
+    
+    margin-left: 6%;
+    justify-content: center;
+    align-items: center;
+}
+.item_b_grafico_icon_a{
+    
+    width: 21%;
+    height: 9vh;
+    background-image: url("/src/components/images/cartao.PNG");
+    background-position: center;
+    background-size: cover;
+}
+.item_b_grafico_icon_b{
+    width: 21%;
+    height: 9vh;
+    
+    background-image: url("/src/components/images/pessoa.PNG");
+    background-position: center;
+    background-size: cover;
+}
+.item_b_grafico_icon_c{
+    width: 21%;
+    height: 9vh;
+    
+    background-image: url("/src/components/images/estrela.PNG");
+    background-position: center;
+    background-size: cover;
+}
+.item_b_grafico_texto_a{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+.item_b_grafico_texto_b{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.item_b_grafico_texto_c{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.item_b_grafico_valor_a{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+.item_b_grafico_valor_b{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.item_b_grafico_valor_c{
+    width: 70%;
+    height: 3vh;
+    
+    display: flex;
+    justify-content: center;
+    color: green;
+
+}
+.lado_de_cima_b{
+    width: 100%;
+    height: 8vh;
+    margin-left: 6%;
+    margin-top: 1%;
+    
+}
+
+.lado_de_baixo_b{
+    
+    width: 100%;
+    height: 21vh;
+    display: flex;
+}
+/* fim de B*/
+
+
+
+
+/* inicio de C*/
+.item_c{
+    width: 100%;
+    height:31vh;
+    margin-bottom: 2%;
+    display: flex;
+    
+}
+.item_c_grafico{
+    padding: 1%;
+    width: 40%;
+    margin-left: 6.4%;
+    height:31vh;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.329); 
+    
+}
+/* inicio de C*/
+
+
+
+
+
+/* inicio de D*/
+.item_d{
+    width: 100%;
+    height:30vh;
+ 
+    display: flex;
+   
+}
+.item_d_grafico{
+    width: 25%;
+    margin-left: 6%;
+    height:25vh;
+    border-radius: 2%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.329); 
+}
+.item_d_grafico_cima{
+    width: 100%;
+    height: 15%;
+    border-radius: 2%;
+    
+    display: flex;
+    justify-content: center;
+    background-color: #49CCC6;
+    color: white;
+}
+.item_d_grafico_meio{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_d_grafico_baixo{
+    width: 100%;
+    height: 15%;
+    border-radius: 2%;
+    
+    display: flex;
+    justify-content: center;
+    background-color: #49CCC6;
+    color: white;
+}
+
+.item_d_imagem_perfil_paciente{
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 3%;
+    height: 70%;
+    border-radius: 100%;
+    background-image: url("/src/components/images/pessoa_foto.PNG");
+    background-position: center;
+    background-size: cover;
+}
+
+.item_d_informacoes_consulta{
+    margin-top: 5%;
+    width: 70%;
+    height: 70%;
+    
+    display: flex;
+    flex-direction: row;
+}
+.item_d_informacoes_consulta_nome_paciente{
+    margin-top: 16%;
+    width: 20vh;
+    height: 2vh;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+.item_d_informacoes_consulta_data{
+    width: 20vh;
+    height: 2vh;
+    
+    display: flex;
+    justify-content: center;
+}
+.item_d_prontuario_atalho{
+    margin-top: 11%;
+    width: 30%;
+    height: 5vh;
+    background-image: url("/src/components/images/pasta.PNG");
+    background-position: center;
+    background-size: 6vh;
+    background-repeat: no-repeat;
+
+    
+}
+
+.item_d_grafico_meio_conteudo{
+    margin-top: 4%;
+    width: 100%;
+   
+}
+
+.item_d_grafico_meio_conteudo_positivo{
+    margin-left: 10%;
+    width: 10%;
+    height: 4vh; 
+                                         
+    border-radius:100%;
+    background-image: url("/src/components/images/positivo.PNG");
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.item_d_grafico_meio_conteudo_negativo{
+    margin-left: 10%;
+    width: 10%;
+    height: 4vh; 
+                                          
+    border-radius:100%;
+    background-image: url("/src/components/images/negativo.PNG");
+    background-position: center;
+    background-size: cover;
+}
+
+.item_d_grafico_meio_conteudo_panico{
+    margin-left: 10%;
+    width: 10%;
+    height: 4vh; 
+                                          
+    border-radius:100%;
+    background-image: url("/src/components/images/panico.PNG");
+    background-position: center;
+    background-size: cover;
+}
+.item_d_grafico_meio_conteudo_informacao{
+    
+    width: 60%;
+    height: 4vh;
+    margin-top: 1%;
+    margin-left: 2%;
+     
+ 
+}
+
+.item_d_grafico_meio_linha{
+    width: 100%;
+    display: flex;
+    height: 5vh;
+    
+}
+/* fim de D*/
+
+
+/* fim da dashboard em si*/
+
+
+/*   inicio do chart */
+
+
+.chart{
+    width: 100%;
+    height: 3vh;
+}
+
+
+/*   fim do chart    */
+
+
+/**/

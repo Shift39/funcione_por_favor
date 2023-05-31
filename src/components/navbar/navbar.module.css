@@ -1,0 +1,82 @@
+/* nav bar css*/
+.navbar {
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(80, 191, 184, 0.541);
+    background: #5CC1BB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.navbar .lado_direito {
+    width: 30%;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .lado_esquerdo {
+    width: 30%;
+    height: 11vh;
+    background-image: url("/src/components/images/logoBrancoSemFundo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 0.8%;
+    background-size: 250px 50px;
+}
+
+.cadastrar {
+    width: 10vw;
+    height: 6.4vh;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.entrar {
+    width: 8vw;
+    height: 6.5vh;
+    font-size: 1.4rem;
+    border-radius: 7%;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: none;
+    background: #ffffff;
+    color: #50bfb8;
+    font-weight: bold;
+    border-style: solid;
+}
+
+
+.cadastrar:hover {
+    background: #eaf8f7 !important;
+    opacity: 1;
+    color: #50bfb8 !important;
+}
+
+
+.entrar:hover {
+    background-color: #50bfb8 !important;
+    opacity: 1;
+    color: #f9f9f9;
+}
